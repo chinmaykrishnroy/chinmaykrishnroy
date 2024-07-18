@@ -22,7 +22,7 @@
 
 <p align="left" style="color: white;">
   - Creating tracebacks since 2022<br>
-  - Learning React and Docker<br>
+  - Learning Docker<br>
   - Currently working on my Bit-Torrent Desktop Application project<br>
   - I am an Electronic Music Producer and I play keyboard and guitar
 </p>
