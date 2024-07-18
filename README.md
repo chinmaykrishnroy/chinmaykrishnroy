@@ -1,4 +1,8 @@
 
+<img align="left" src="https://komarev.com/ghpvc/?username=chinmaykrishnroy&style=flat-square&abbreviated=true" />
+
+###
+
 <img align="right" height="200" src="https://github.com/user-attachments/assets/66e4889c-c8ac-4c84-9048-3ea1d7b4a2a1" />
 
 ###
@@ -22,10 +26,6 @@
   - Currently working on my Bit-Torrent Desktop Application project<br>
   - I am an Electronic Music Producer and I play keyboard and guitar
 </p>
-
-###
-
-<img align="right" src="https://komarev.com/ghpvc/?username=chinmaykrishnroy&style=flat-square&abbreviated=true" />
 
 ###
 
