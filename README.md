@@ -1,4 +1,4 @@
-![Logo Dark](https://image-link.png#gh-dark-mode-only)
+
 <img align="right" height="200" src="https://github.com/user-attachments/assets/66e4889c-c8ac-4c84-9048-3ea1d7b4a2a1" />
 
 ###
