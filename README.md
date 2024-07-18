@@ -3,7 +3,8 @@
 
 ###
 
-<h2 align="left" style="color: white;">Hello World!</h2>
+
+<h2 align="left" style="color: white;">Hello World! <img src="https://github.com/user-attachments/assets/8ddb5a93-ad50-49fe-a4c0-27d4092f716d" width="40" height="40" alt="👋"></h2>
 
 ###
 
