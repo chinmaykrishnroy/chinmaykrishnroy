@@ -7,7 +7,7 @@
 
 ###
 
-<p align="left" style="color: white;">I am Chinmay, a Python developer from India 🇮🇳</p>
+<p align="left">I am Chinmay, a Python developer from India <img src="https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/in.png" width="20" height="20" alt="India Flag"></p>
 
 ###
 
