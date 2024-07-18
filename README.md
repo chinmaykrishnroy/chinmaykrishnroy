@@ -1,5 +1,4 @@
-<div style="background-color: black; color: white; padding: 20px;">
-
+![Logo Dark](https://image-link.png#gh-dark-mode-only)
 <img align="right" height="200" src="https://github.com/user-attachments/assets/66e4889c-c8ac-4c84-9048-3ea1d7b4a2a1" />
 
 ###
@@ -109,6 +108,4 @@
   <img src="https://streak-stats.demolab.com?user=chinmaykrishnroy&locale=en&mode=daily&theme=gotham&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph" />
   <img src="https://github-profile-trophy.vercel.app?username=chinmaykrishnroy&theme=dracula&column=-1&row=1&margin-w=4&margin-h=8&no-bg=true&no-frame=false&order=4" height="150" alt="trophy graph" />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=chinmaykrishnroy&radius=16&theme=modern-lilac&area=true&order=5&hide_title=false" height="300" alt="activity-graph graph" />
-</div>
-
 </div>
