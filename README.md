@@ -4,11 +4,11 @@
 ###
 
 
-<h1 align="left" style="color: white;">Hello <img src="https://github.com/user-attachments/assets/8ddb5a93-ad50-49fe-a4c0-27d4092f716d" width="100" height="100" alt="👋"> World!</h1>
+<h1 align="left" style="color: white;">Hello World!<img src="https://github.com/user-attachments/assets/8ddb5a93-ad50-49fe-a4c0-27d4092f716d" width="100" height="100" alt="👋"></h1>
 
 ###
 
-<p align="left">I am Chinmay, a Python developer from India <img src="https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/in.png" width="20" height="15" alt="India Flag"></p>
+<p align="left">I am <b>Chinmay</b>, a Python developer from India <img src="https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/in.png" width="20" height="15" alt="India Flag"></p>
 
 ###
 
