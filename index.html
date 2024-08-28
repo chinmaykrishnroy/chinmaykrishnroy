@@ -586,7 +586,7 @@
     <!-- =====BOX ICONS===== -->
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-    <title>Portfolio website complete</title>
+    <title>Chinmay's Portfolio</title>
 </head>
 
 <body>
@@ -617,8 +617,8 @@
         <!--===== HOME =====-->
         <section class="home bd-grid" id="home">
             <div class="home__data">
-                <h1 class="home__title">Hello World!<br>I'm <span class="home__title-color">Chinmay,</span><br>A Software
-                    Dev
+                <h1 class="home__title">Hello World!<br>I'm <span class="home__title-color">Chinmay</span>,<br>A
+                    Software Dev
                 </h1>
 
                 <a href="https://github.com/chinmaykrishnroy/chinmaykrishnroy/raw/main/ChinmayKRoy.pdf" class="button"
@@ -868,6 +868,10 @@
             const body = `Name: ${name}\nEmail: ${email}\n\n${message}`;
 
             window.location.href = `mailto:chinmaykrishnroy@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+            nameField.value = '';
+            emailField.value = '';
+            messageField.value = '';
         }
     </script>
 </body>
