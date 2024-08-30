@@ -12,7 +12,12 @@
 
 ###
 
-<p align="left">I am <b>[Chinmay](https://chinmaykrishnroy.github.io/chinmaykrishnroy/)</b>, a Python developer from India <img src="https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/in.png" width="20" height="15" alt="India Flag"></p>
+<p align="left">
+  I am <b><a href="https://chinmaykrishnroy.github.io/chinmaykrishnroy/" target="_blank">Chinmay</a></b>, 
+  a Python developer from India 
+  <img src="https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/in.png" 
+       width="20" height="15" alt="India Flag">
+</p>
 
 ###
 
