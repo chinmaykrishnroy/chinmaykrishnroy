@@ -16,7 +16,7 @@
   I am <b><a href="https://chinmaykrishnroy.github.io/chinmaykrishnroy/" 
            target="_blank" 
            style="color: hsl(350, 89%, 60%); text-decoration: none;">Chinmay</a></b>, 
-  a Python developer from India 
+  a developer from India 
   <img src="https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/in.png" 
        width="20" height="15" alt="India Flag">
 </p>
