@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="light dark">
   <meta name="description" content="Chinmay Krishn Roy — software engineering, AI automation, cloud/DevOps, IATA NDC, open source, games, and systems portfolio.">
-  <meta id="theme-color" name="theme-color" content="#fffaf7">
+  <meta id="theme-color" name="theme-color" content="#fdf8f6">
   <meta property="og:title" content="Chinmay Krishn Roy — Software & AI Automation Engineer">
   <meta property="og:description" content="Engineering work across automation, AI-enabled support systems, Rust/Python tools, cloud infrastructure, open source, and interactive software.">
   <title>Chinmay Krishn Roy — Software & AI Automation Engineer</title>
@@ -20,7 +20,7 @@
         : (prefersDark ? 'dark' : 'light');
       document.documentElement.setAttribute('data-theme', initialTheme);
       const themeMeta = document.getElementById('theme-color');
-      if (themeMeta) themeMeta.content = initialTheme === 'dark' ? '#0a0a0c' : '#fffaf7';
+      if (themeMeta) themeMeta.content = initialTheme === 'dark' ? '#0a0a0c' : '#fdf8f6';
     })();
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,9 +32,9 @@
       --hue-color: 15;
       --first-color: hsl(var(--hue-color), 89%, 60%);
       --second-color: hsl(var(--hue-color), 56%, 82%);
-      --bg: #fffaf7;
-      --surface: #ffffff;
-      --surface-2: #fff4ee;
+      --bg: color-mix(in srgb, var(--second-color) 12%, white);
+      --surface: color-mix(in srgb, var(--second-color) 38%, white);
+      --surface-2: var(--second-color);
       --text: #171719;
       --muted: #67676e;
       --border: #ded8d4;
@@ -74,9 +74,9 @@
       color-scheme: dark;
     }
     :root[data-theme="light"] {
-      --bg: #fffaf7;
-      --surface: #ffffff;
-      --surface-2: #fff4ee;
+      --bg: color-mix(in srgb, var(--second-color) 12%, white);
+      --surface: color-mix(in srgb, var(--second-color) 38%, white);
+      --surface-2: var(--second-color);
       --text: #171719;
       --muted: #67676e;
       --border: #ded8d4;
@@ -235,7 +235,11 @@
       min-height: 176px; padding: 1.15rem; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface);
       cursor: pointer; transition: border-color .15s ease, transform .15s ease;
     }
-    .project-card:hover { border-color: var(--border-strong); transform: translateY(-2px); }
+    .project-card:hover {
+      border-color: color-mix(in srgb, var(--first-color) 36%, var(--border-strong));
+      background: color-mix(in srgb, var(--second-color) 52%, var(--surface));
+      transform: translateY(-2px);
+    }
     .project-card:focus-visible { outline: 2px solid var(--first-color); outline-offset: 2px; }
     .project-card.hidden { display: none; }
     .project-icon {
