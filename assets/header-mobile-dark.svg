@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="470" viewBox="0 0 480 470" role="img" aria-labelledby="title desc">
+<title id="title">Chinmay Krishn Roy — Code. Sound. Silicon.</title>
+<desc id="desc">A circuit diagram with traveling signals links developer tools, audio, devices, and real-time software. A decorative illustration of the areas I build in.</desc>
+<style>
+  .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+  .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+  .signal { animation: travel 7s linear infinite; }
+  .s2 { animation-delay: -1.75s; } .s3 { animation-delay: -3.5s; } .s4 { animation-delay: -5.25s; }
+  @keyframes travel { from { stroke-dashoffset: 270; } to { stroke-dashoffset: 0; } }
+  .core { transform-box: fill-box; transform-origin: center; animation: breathe 7s ease-in-out infinite; }
+  @keyframes breathe { 0%,100% { opacity: .28; transform: scale(.94); } 50% { opacity: .7; transform: scale(1.04); } }
+  @media (prefers-reduced-motion: reduce) { .signal, .core { animation: none; } .signal { stroke-dashoffset: 70; } }
+</style>
+<defs><pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#354540"/></pattern></defs>
+<rect width="480" height="470" rx="8" fill="#111719"/>
+<rect x=".5" y=".5" width="479" height="469" rx="7.5" fill="none" stroke="#354540"/>
+
+<text x="28" y="42" class="mono" fill="#a3b2af" font-size="12" letter-spacing="1.3">CHINMAY KRISHN ROY</text>
+<text x="26" y="110" class="sans" fill="#f3f1e9" font-size="57" font-weight="650" letter-spacing="-2.5">Code. Sound.</text>
+<text x="26" y="173" class="sans" fill="#f3f1e9" font-size="64" font-weight="650" letter-spacing="-2.5">Silicon<tspan fill="#add6c2">.</tspan></text>
+<path d="M28 202 H452" stroke="#354540"/>
+<g transform="translate(67 212) scale(.98)">
+
+<rect x="0" y="0" width="336" height="256" fill="url(#dots)" opacity=".7"/>
+<path d="M46 64 H92 L128 100 H143 V118" fill="none" stroke="#354540" stroke-width="1.5"/>
+<path d="M46 64 H92 L128 100 H143 V118" class="signal s1" fill="none" stroke="#add6c2" stroke-width="2" stroke-dasharray="12 258"/>
+<path d="M290 64 H244 L208 100 H193 V118" fill="none" stroke="#354540" stroke-width="1.5"/>
+<path d="M290 64 H244 L208 100 H193 V118" class="signal s2" fill="none" stroke="#add6c2" stroke-width="2" stroke-dasharray="12 258"/>
+<path d="M46 202 H92 L128 166 H143 V148" fill="none" stroke="#354540" stroke-width="1.5"/>
+<path d="M46 202 H92 L128 166 H143 V148" class="signal s3" fill="none" stroke="#add6c2" stroke-width="2" stroke-dasharray="12 258"/>
+<path d="M290 202 H244 L208 166 H193 V148" fill="none" stroke="#354540" stroke-width="1.5"/>
+<path d="M290 202 H244 L208 166 H193 V148" class="signal s4" fill="none" stroke="#add6c2" stroke-width="2" stroke-dasharray="12 258"/>
+<rect x="131" y="96" width="74" height="74" rx="10" class="core" fill="none" stroke="#add6c2"/>
+<rect x="139" y="104" width="58" height="58" rx="6" fill="#1c2825" stroke="#add6c2"/>
+<text x="168" y="140" text-anchor="middle" class="mono" fill="#f3f1e9" font-size="19" letter-spacing="-1">CKR</text>
+
+<rect x="22" y="42" width="48" height="44" rx="5" fill="#111719" stroke="#354540"/>
+<text x="46" y="106" text-anchor="middle" class="mono" fill="#a3b2af" font-size="10" letter-spacing="1">TOOLS</text>
+<rect x="266" y="42" width="48" height="44" rx="5" fill="#111719" stroke="#354540"/>
+<text x="290" y="106" text-anchor="middle" class="mono" fill="#a3b2af" font-size="10" letter-spacing="1">AUDIO</text>
+<rect x="22" y="180" width="48" height="44" rx="5" fill="#111719" stroke="#354540"/>
+<text x="46" y="244" text-anchor="middle" class="mono" fill="#a3b2af" font-size="10" letter-spacing="1">DEVICES</text>
+<rect x="266" y="180" width="48" height="44" rx="5" fill="#111719" stroke="#354540"/>
+<text x="290" y="244" text-anchor="middle" class="mono" fill="#a3b2af" font-size="10" letter-spacing="1">REALTIME</text>
+<g fill="none" stroke="#add6c2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+<path d="M35 57 L42 64 L35 71 M47 72 H57"/>
+<path d="M278 64 H280 M284 58 V70 M290 53 V75 M296 59 V69 M301 64 H303"/>
+<rect x="36" y="192" width="20" height="20" rx="2"/>
+<path d="M40 188 V192 M46 188 V192 M52 188 V192 M40 212 V216 M46 212 V216 M52 212 V216 M32 196 H36 M32 202 H36 M32 208 H36 M56 196 H60 M56 202 H60 M56 208 H60"/>
+<circle cx="281" cy="197" r="4"/><circle cx="299" cy="207" r="4"/><path d="M285 197 H295 V203 M295 207 H285 V201"/>
+</g>
+</g>
+</svg>
